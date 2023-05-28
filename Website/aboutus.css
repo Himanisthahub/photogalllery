@@ -1,0 +1,46 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #333333;
+  }
+  
+  h2 {
+    color: #333333;
+  }
+  
+  h3 {
+    color: #333333;
+    margin-top: 20px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  /* Media queries for responsiveness */
+  @media only screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
